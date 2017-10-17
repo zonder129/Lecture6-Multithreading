@@ -86,7 +86,6 @@ public class DemoIntentService extends IntentService {
     private Notification getNotification() {
         return new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.ic_foreground)
-                .setContentTitle(getString(R.string.app_name))
                 .setContentTitle(getString(R.string.working))
                 .build();
     }
