@@ -76,7 +76,7 @@ public class HandlerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_handler);
 
-        result = (TextView) findViewById(R.id.result);
+        result = findViewById(R.id.result);
 
         findViewById(R.id.start).setOnClickListener(clickListener);
         findViewById(R.id.stop).setOnClickListener(clickListener);

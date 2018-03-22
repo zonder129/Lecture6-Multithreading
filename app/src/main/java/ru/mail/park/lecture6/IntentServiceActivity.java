@@ -37,7 +37,7 @@ public class IntentServiceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intent_service);
 
-        foreground = (SwitchCompat) findViewById(R.id.foreground);
+        foreground = findViewById(R.id.foreground);
 
         findViewById(R.id.to_lower).setOnClickListener(clickListener);
         findViewById(R.id.to_upper).setOnClickListener(clickListener);

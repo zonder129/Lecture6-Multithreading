@@ -32,8 +32,8 @@ public class NetworkActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_network);
 
-        body = (TextView) findViewById(R.id.body);
-        progress = (ProgressBar) findViewById(R.id.progress);
+        body = findViewById(R.id.body);
+        progress = findViewById(R.id.progress);
 
         findViewById(R.id.user_agent).setOnClickListener(new View.OnClickListener() {
             @Override
